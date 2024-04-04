@@ -1,10 +1,10 @@
 "use client";
-import React from 'react';
 import Link from 'next/link';
 import NavLink from './NavLink';
 import { useState } from 'react';
 //list of icon names via @heroicons/react
 import { Bars2Icon, XCircleIcon, HomeIcon} from '@heroicons/react/16/solid';
+import MobileMenu from './MobileMenu';
 
 //navLinks can be edited/updtated with new paths in the future if needed
 const navLinks = [
@@ -54,6 +54,8 @@ export default function NavBar() {
                     </ul>
                 </div>
             </div>
+            {/* Toggle mobile menu overlay ---> placed down here to avoid parent styling*/}
+            {navbarOpen ? <MobileMenu links={navLinks} /> : null}
         </nav>
     );
 }

@@ -18,7 +18,7 @@ export default function HeroArea() {
                             sequence={[
                                 "Alex",
                                 1000,
-                                "an Aspiring Developer",
+                                "a front-end developer",
                                 1000,
                             ]}
                             wrapper="span"
