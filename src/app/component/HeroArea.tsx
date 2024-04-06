@@ -38,7 +38,7 @@ export default function HeroArea() {
                             sm:w-fit 
                             rounded-full 
                             mt-3 
-                            bg-gradient-to-br from-[#97FEED] via-[#0B666A] to-[#35A29F] hover:bg-white text-white mr-4">
+                            bg-gradient-to-br from-[#D62828] to-[#FCBF49] hover:bg-white text-white mr-4">
                             Contact Me
                         </button>
                         <button className="px-1 py-1 w-full sm:w-fit rounded-full mt-3 bg-gradient-to-br from-[#97FEED] via-[#0B666A] to-#35A29F hover:bg-slate-800 text-white">

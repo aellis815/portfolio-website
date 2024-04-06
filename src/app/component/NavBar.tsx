@@ -8,8 +8,8 @@ import MobileMenu from './MobileMenu';
 
 //navLinks can be edited/updtated with new paths in the future if needed
 const navLinks = [
-    { path: '/aboutme', title: 'About Me' },
-    { path: '/projects', title: 'Projects' },
+    { path: '#aboutme', title: 'About Me' },
+    { path: '#projects', title: 'Projects' },
     { path: '/contact', title: 'Contact' },
 ]
 
