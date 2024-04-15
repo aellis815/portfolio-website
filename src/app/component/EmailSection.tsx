@@ -19,7 +19,7 @@ const EmailSection: React.FC = () => {
         }
         const response = await fetch(endpoint, options);
         if (!response.ok) {
-            throw new Error("Http error! status:" + response.status)
+            throw new Error("Http error! status: " + response.status)
         }
         const resData = await response.json();
         console.log(resData);
