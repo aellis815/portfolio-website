@@ -14,7 +14,7 @@ const AboutMe = () => {
 
 
     return (
-        <div id="aboutme" className="text-white">
+        <div id="aboutme" className="text-white mt-48">
             <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
                 <Image alt="About me image" src="/images/placeHolder.png" width={1000} height={1000}></Image>
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">

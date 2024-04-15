@@ -4,6 +4,7 @@ import AboutMe from "./component/AboutMe";
 import HeroArea from "./component/HeroArea";
 import ProjectSection from "./component/ProjectSection";
 import Footer from "./component/Footer";
+import EmailSection from "./component/EmailSection";
 
 
 const colors = "bg-[#252323]"
@@ -18,6 +19,7 @@ export default function Home() {
         <HeroArea />
         <AboutMe />
         <ProjectSection />
+        <EmailSection />
         <Footer />
       </div>
     </main>

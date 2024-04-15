@@ -5,7 +5,7 @@ import ProjectData from "./ProjectData";
 
 const ProjectSection = () => {
     return (
-        <>
+        <div className="mt-48">
             <h2 className="text-white flex text-center h-14">
                 My Projects
             </h2>
@@ -21,7 +21,7 @@ const ProjectSection = () => {
                     />
                 )}
             </div>
-        </>
+        </div>
     )
 }
 
