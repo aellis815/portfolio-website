@@ -3,6 +3,8 @@ import NavBar from "./component/NavBar";
 import AboutMe from "./component/AboutMe";
 import HeroArea from "./component/HeroArea";
 import ProjectSection from "./component/ProjectSection";
+import Footer from "./component/Footer";
+
 
 const colors = "bg-[#252323]"
 
@@ -16,6 +18,7 @@ export default function Home() {
         <HeroArea />
         <AboutMe />
         <ProjectSection />
+        <Footer />
       </div>
     </main>
   );
