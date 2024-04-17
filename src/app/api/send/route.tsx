@@ -1,23 +1,32 @@
-// import { NextApiRequest, NextApiResponse } from 'next';
+import { ResponseData } from '@/app/component/EmailSection';
+import { NextApiRequest, NextApiResponse } from 'next';
 import { Resend } from 'resend';
 
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-const fromEmail= process.env.FROM_EMAIL;
+const resend: Resend = new Resend(process.env.RESEND_API_KEY as string);
+const fromEmail: string = process.env.FROM_EMAIL as string;
 
-export async function POST(req, res){
-  const { body } = await req.json();
-  const {email, subject, message} = body;
+interface RequestApi{
+  email: string;
+  subject: string;
+  message: string;
+}
+
+export async function POST(req: RequestApi, res: ResponseData) {
+  const { email, subject, message } = await req.json();
+  console.log(email, subject, message);
+  
   try {
     const data = await resend.emails.send({
       from: fromEmail,
-      to: ["alexander.ellis815@gmail.com", email],
-      subject: 'Hello world',
+      to: [email, fromEmail],
+      subject: subject,
       react: (
         <>
-            <h1>{subject}</h1>
-            <p>Thank you for contacting me!</p>
+            
+            <p>Thank you for contacting me! I will do my best to get back to you regarding the following:</p>
             <p>{message}</p>
+            
         </>
       ),
     });

@@ -48,8 +48,8 @@ export default function HeroArea() {
                         </button>
                     </div>
                 </div>
-                <div className="col-span-5 place-self-center mt-4 lg:mt-0">
-                    <div className="rounded-full bg-gradient-to-br from-[#97FEED] via-[#0B666A] to-[#35A29F] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+                <div className="col-span-5 place-self-center mt-4 lg:mt-0 ml-6">
+                    <div className="rounded-full bg-gradient-to-br from-[#97FEED] via-[#0B666A] to-[#35A29F] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative m-5">
                         <Image
                             src="/images/circle_headshot.png"
                             className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"

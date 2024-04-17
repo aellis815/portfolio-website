@@ -7,11 +7,10 @@ import Footer from "./component/Footer";
 import EmailSection from "./component/EmailSection";
 
 
-const colors = "bg-[#252323]"
-
 
 export default function Home() {
   return (
+
     <main className="flex min-h-screen flex-col 
     bg-[#070707]">
       <NavBar />
@@ -23,6 +22,7 @@ export default function Home() {
         <Footer />
       </div>
     </main>
+
   );
 }
 
