@@ -17,6 +17,12 @@ export default function Home() {
       <div className="container mt-24 mx-auto py-4 px-12">
         <HeroArea />
         <AboutMe />
+        <div
+          className="flex m-8"
+          id="projects"
+        >
+
+        </div>
         <ProjectSection />
         <EmailSection />
         <Footer />

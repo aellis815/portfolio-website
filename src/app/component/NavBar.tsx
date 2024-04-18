@@ -10,7 +10,7 @@ import MobileMenu from './MobileMenu';
 const navLinks = [
     { path: '#aboutme', title: 'About Me' },
     { path: '#projects', title: 'Projects' },
-    { path: '/contact', title: 'Contact' },
+    { path: '#email', title: 'Contact' },
 ]
 
 //NavBar component NavLinks 
