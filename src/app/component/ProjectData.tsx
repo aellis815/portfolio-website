@@ -5,7 +5,8 @@ const ProjectData = [
         description: "My portfolio website is intended to in itself be a showcase of my skills and abilities and introduce future projects that I will be working on.",
         image: "/images/placeholder2.png",
         githubUrl: "https://github.com/aellis815/portfolio-website",
-        websiteUrl: "/"
+        websiteUrl: "/",
+        tags: ["React", "TailwindCSS", "TypeScript", "Next.js", "Vercel"]
     },
 
     {
@@ -14,7 +15,8 @@ const ProjectData = [
         description: "This is a description of project 2",
         image: "/images/placeholder3.png",
         githubUrl: "/",
-        websiteUrl: "/"
+        websiteUrl: "/",
+        tags: ["Next.js",]
     },
     // add more projects here
     // {
@@ -24,6 +26,8 @@ const ProjectData = [
     //     image: "/images/placeholder2.png",
     //     githubUrl: "/",
     //     websiteUrl: "/"
+    //     tags: ["Next.js",]
+    
     // },
     // {
     //     id: 4,
@@ -32,6 +36,7 @@ const ProjectData = [
     //     image: "/images/placeholder2.png",
     //     githubUrl: "/",
     //     websiteUrl: "/"
+    //     tags: ["Next.js",]
     // },
 ]
 

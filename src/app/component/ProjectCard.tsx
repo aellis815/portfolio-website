@@ -7,10 +7,11 @@ interface ProjectCardProps {
     description: string,
     imgUrl: string,
     websiteUrl: string,
-    githubUrl: string
+    githubUrl: string,
+    tags: string[]
 }
 
-const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, imgUrl, websiteUrl, githubUrl }) => {
+const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, imgUrl, websiteUrl, githubUrl, tags}) => {
     return (
         <div>
             <div
@@ -41,6 +42,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, imgUrl, w
                 {/* Indivudal styling for title & description */}
                 <h5 className="text-xl font-semibold mb-2">{title}</h5>
                 <p className="text-slate-300">{description}</p>
+                <ul className="flex flex-wrap mt-4 gap-2">
+                    {tags.map((tag) => (
+                        <li key={tag} className="bg-gradient-to-br from-primary-500 to-secondary-500 px-3 py-1 tracking-wider rounded-full">{tag}</li>
+                    ))}
+                </ul>
             </div>
         </div>
     );

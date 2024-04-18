@@ -18,9 +18,11 @@ const ProjectSection = () => {
                         imgUrl={project.image}
                         githubUrl={project.githubUrl}
                         websiteUrl={project.websiteUrl}
+                        tags={project.tags}
                     />
                 )}
             </div>
+           
         </div>
     )
 }
