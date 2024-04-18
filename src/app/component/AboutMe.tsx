@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import ProfessionalButton from './Buttons';
 import Image from 'next/image';
-import { motion } from 'framer-motion';
+// import { motion } from 'framer-motion';
 
 
 const AboutMe = () => {

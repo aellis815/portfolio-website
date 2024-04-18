@@ -5,6 +5,8 @@ import HeroArea from "./component/HeroArea";
 import ProjectSection from "./component/ProjectSection";
 import Footer from "./component/Footer";
 import EmailSection from "./component/EmailSection";
+import Skills from "./component/SkillsSection";
+import SectionBuffer from "./component/SectionBuffer";
 
 
 
@@ -15,13 +17,16 @@ export default function Home() {
       <NavBar />
       <div className="container mt-24 mx-auto py-4 px-12">
         <HeroArea />
-        <div className="flex m-8" id="aboutme"></div>
+        <SectionBuffer id="aboutme"/>
         <AboutMe />
-        <div className="flex m-8" id="projects"></div>
+        <SectionBuffer id="skills"/>
+        <Skills />
+        <SectionBuffer id="projects"/>
         <ProjectSection />
+        <SectionBuffer id="contact"/>
         <EmailSection />
         <Footer />
-        <div className="flex m-8" id="projects"></div>
+        <SectionBuffer id="null"/>
       </div>
     </main>
 
