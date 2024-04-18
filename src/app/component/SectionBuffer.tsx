@@ -5,7 +5,7 @@ interface SectionBufferProps {
 
 const SectionBuffer: React.FC<SectionBufferProps> = ({id}) => {
     return (
-        <div className="flex mt-36" id={id}></div>
+        <div className="flex mt-24" id={id}></div>
     )
 }
 

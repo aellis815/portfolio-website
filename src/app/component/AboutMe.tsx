@@ -32,14 +32,14 @@ const AboutMe = () => {
                         {isChecked ? (
                             <p className="text-lg text-[#ADB7BE] py-3 justify-start">
                                 {/* THIS IS WHERE I WOULD PUT PERSONAL BIO */}
-                                I am a guy that does stuff on occasion.
+                                TO:DO - WRITE MY PERSONAL BIO - CONSIDER HAVING IMAGE ON THE SIDE FLIP TO A PERSONAL IMAGE OF ME AND SMOL DOG
                             </p>
 
                         ) : (
                             <>
                                 <p className="text-lg text-[#ADB7BE] py-3">
                                     {/* THIS IS WHERE I WOULD PUT PROFESSIONAL BIO */}
-                                    I love building things for the web. I specialize in creating fast, responsive, and accessible websites.
+                                    TO:DO - WRITE MY PROFESSIONAL BIO
                                 </p>
                             </>
                         )}

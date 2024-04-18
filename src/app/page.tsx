@@ -13,7 +13,7 @@ import SectionBuffer from "./component/SectionBuffer";
 export default function Home() {
   return (
 
-    <main className="flex min-h-screen flex-col bg-[#070707]">
+    <main className="flex min-h-screen flex-col bg-[#070707] leading-loose">
       <NavBar />
       <div className="container mt-24 mx-auto py-4 px-12">
         <HeroArea />

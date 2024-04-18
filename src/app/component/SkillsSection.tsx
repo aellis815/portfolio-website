@@ -25,7 +25,7 @@ const Skills: React.FC = () => {
                 {
                     skillsData.map((skill, index) => (
                         <motion.li
-                            className="border border-secondary-500 bg-slate-900 px-3 py-1 tracking-wider rounded-3xl m-1"
+                            className="border border-opacity-50 border-secondary-500 bg-slate-900 px-3 py-1 tracking-wider rounded-3xl m-1"
                             key={index}
                             variants={fadeInAnimationVariants}
                             initial="initial"

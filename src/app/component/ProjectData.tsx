@@ -11,9 +11,9 @@ const ProjectData = [
 
     {
         id: 2,
-        title: "Project 2",
-        description: "This is a description of project 2",
-        image: "/images/placeholder3.png",
+        title: "Dudecati",
+        description: "(WIP) Dudecati is a website that will aggregate listings of Ducati motorcycles for sale -- starting in the Bay Area.",
+        image: "/images/dudecati.png",
         githubUrl: "/",
         websiteUrl: "/",
         tags: ["Next.js",]
