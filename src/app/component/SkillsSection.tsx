@@ -19,9 +19,9 @@ const fadeInAnimationVariants = {
 
 const Skills: React.FC = () => {
     return (
-        <section className="mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40">
+        <section className="mb-28 scroll-mt-28 text-center sm:mb-40 mx-auto max-w-screen-lg">
             <div className="font-bold text-4xl text-white justify-center grid xl:gap-16 mb-14">My Skills</div>
-            <ul className="flex flex-wrap justify-center gap-2 text-lg text-white">
+            <ul className="flex flex-wrap justify-center gap-2 text-lg text-white ">
                 {
                     skillsData.map((skill, index) => (
                         <motion.li

@@ -3,6 +3,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation'
+import Link from 'next/link';
 
 export default function HeroArea() {
     return (
@@ -31,16 +32,10 @@ export default function HeroArea() {
                     </p>
 
                     <div>
-                        <button className="
-                            px-6 
-                            py-3 
-                            w-full 
-                            sm:w-fit 
-                            rounded-full 
-                            mt-3 
-                            bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-white text-white mr-4">
+                        <Link className="px-6 py-3 w-full sm:w-fit rounded-full mt-3 bg-gradient-to-br from-primary-500 to-secondary-500 text-white mr-4"
+                            href="/#contact">
                             Contact Me
-                        </button>
+                        </Link>
                         {/* <button className="px-1 py-1 w-full sm:w-fit rounded-full mt-3 bg-gradient-to-br from-[#97FEED] via-[#0B666A] to-#35A29F hover:bg-slate-800 text-white">
                             <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                                 Download CV

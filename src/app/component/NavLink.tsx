@@ -1,20 +1,22 @@
-import React from 'react'
 import Link from 'next/link'
-import { FC } from 'react'
+import { FC, MouseEventHandler } from 'react'
 
 interface NavLinkProps {
     href: string
     title: string
 }
 
-const NavLink: FC<NavLinkProps> = ({ href, title }) => {
+const NavLink: FC<NavLinkProps> = ({ href, title}) => {
     return (
-        <Link 
+
+        <Link
             href={href}
-            className="block py-2 pl-3 pr-4 text-slate-500 sm:text-xl rounded md:p-0 hover:text-white">
+            className="block py-2 pl-3 pr-4 text-slate-500 sm:text-xl rounded md:p-0 hover:text-white"
+            >
                 {title}
-           
-        </Link>
+            
+        </Link >
+
     );
 };
 
