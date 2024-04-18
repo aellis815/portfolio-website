@@ -25,7 +25,7 @@ const ProjectData = [
     //     description: "This is a description of project 3",
     //     image: "/images/placeholder2.png",
     //     githubUrl: "/",
-    //     websiteUrl: "/"
+    //     websiteUrl: "/",
     //     tags: ["Next.js",]
     
     // },
@@ -35,7 +35,7 @@ const ProjectData = [
     //     description: "This is a description of project 4",
     //     image: "/images/placeholder2.png",
     //     githubUrl: "/",
-    //     websiteUrl: "/"
+    //     websiteUrl: "/",
     //     tags: ["Next.js",]
     // },
 ]

@@ -22,7 +22,6 @@ const ProjectSection = () => {
                     />
                 )}
             </div>
-           
         </div>
     )
 }
