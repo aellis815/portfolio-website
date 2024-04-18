@@ -21,14 +21,14 @@ const ProfessionalButton: React.FC<ProfessionalButtonProps> = ({ isChecked, hand
           />
         
         <span
-          className={`flex items-center space-x-[6px] rounded py-2 px-[18px] text-sm font-medium ${!isChecked ? 'text-primary bg-gradient-to-br from-[#0096FF] to-[#FCBF49] ' : 'text-body-color text-[#000000]'
+          className={`flex items-center space-x-[6px] rounded py-2 px-[18px] text-sm font-medium ${!isChecked ? 'text-primary bg-gradient-to-br from-primary-500 to-secondary-500 ' : 'text-body-color text-[#000000]'
             }`}
         >
           <LiaBusinessTimeSolid className='h-5 w-5 mr-2' />
           Professional
         </span>
         <span
-          className={`flex items-center space-x-[6px] rounded py-2 px-[18px] text-sm font-medium ${isChecked ? 'text-primary bg-[#D62828]' : 'text-body-color text-[#000000]'
+          className={`flex items-center space-x-[6px] rounded py-2 px-[18px] text-sm font-medium ${isChecked ? 'text-primary bg-gradient-to-br from-primary-500 to-secondary-500' : 'text-body-color text-[#000000]'
             }`}
         >
           <FaMotorcycle className='h-5 w-5 mr-2' />
