@@ -16,7 +16,7 @@ const AboutMe = () => {
     return (
         <div className="text-white mt-36">
             <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-                <Image alt="About me image" src="/images/placeHolder.png" width={1000} height={1000}></Image>
+                <Image alt="About me image" src="/images/placeholder.png" width={1000} height={1000} className="rounded-2xl"></Image>
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h2 id="AboutMe Header" className="text-4xl font-bold text-white mb-4">
                         About Me
