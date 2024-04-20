@@ -10,21 +10,22 @@ import SectionBuffer from "./component/SectionBuffer";
 
 
 
+
 export default function Home() {
   return (
 
     <main className="flex min-h-screen flex-col bg-[#080808] leading-loose">
       <NavBar />
-
       <div className="container mt-24 mx-auto py-4 px-12 flex flex-col items-center">
+
         <HeroArea />
-        <SectionBuffer id="aboutme"/>
+        <SectionBuffer id="aboutme" />
         <AboutMe />
-        <SectionBuffer id="skills"/>
+        <SectionBuffer id="skills" />
         <Skills />
-        <SectionBuffer id="projects"/>
+        <SectionBuffer id="projects" />
         <ProjectSection />
-        <SectionBuffer id="contact"/>
+        <SectionBuffer id="contact" />
         <EmailSection />
         <Footer />
       </div>
