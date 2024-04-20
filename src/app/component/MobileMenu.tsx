@@ -20,8 +20,8 @@ const MobileMenu: FC<MobileMenuProps> = ({ links, onClick}) => {
             {/* mapping navLinks array for mobile menu */}
             {
                 links.map((link, index) => (
-                    <button onClick={onClick}>
-                        <li key={index}>
+                    <button  key={index} onClick={onClick}>
+                        <li>
                             <NavLink href={link.path} title={link.title} />
                         </li>
                     </button>
