@@ -16,7 +16,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div className="bg-secondary-200 absolute top-[-1rem] left-[-31rem] h-[32rem] w-[68rem] rounded-full blur-[140rem] "></div>
+        {children}
+      </body>
     </html>
   );
 }

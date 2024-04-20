@@ -32,7 +32,7 @@ export default function HeroArea() {
                     </p>
 
                     <div>
-                        <Link className="px-6 py-3 w-full sm:w-fit rounded-full mt-3 bg-gradient-to-br from-primary-500 to-secondary-500 text-white mr-4"
+                        <Link className="items-center flex flex-col px-6 py-3 w-full sm:w-fit rounded-full mt-3 bg-secondary-500 hover:bg-secondary-800 text-white mr-4"
                             href="/#contact">
                             Contact Me
                         </Link>
@@ -43,7 +43,7 @@ export default function HeroArea() {
                         </button> */}
                     </div>
                 </div>
-                <div className="col-span-5 place-self-center mt-4 lg:mt-0 ml-6">
+                <div className="flex flex-col items-center col-span-5 lg:place-self-center mt-4 lg:mt-0 ml-6">
                     <div className="rounded-full bg-gradient-to-br from-primary-500 via-secondary-500 to-transparent w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative m-5">
                         <Image
                             src="/images/circle_headshot.png"

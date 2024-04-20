@@ -11,7 +11,7 @@ const NavLink: FC<NavLinkProps> = ({ href, title}) => {
 
         <Link
             href={href}
-            className="block py-2 pl-3 pr-4 text-slate-500 sm:text-xl rounded md:p-0 hover:text-white"
+            className="block py-3 pl-3 pr-3 text-slate-300 sm:text-xl rounded md:p-0 hover:text-white"
             >
                 {title}
             

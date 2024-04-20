@@ -25,6 +25,7 @@ const Footer = () => {
                     </Link>
                 </div>
                 <p className="text-slate-400 text-right">All Rights Reserved</p>
+                
             </div>
 
         </footer >

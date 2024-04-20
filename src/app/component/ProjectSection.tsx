@@ -1,11 +1,11 @@
 import ProjectCard from "./ProjectCard";
-import ProjectData from "./ProjectData";
+import { ProjectData } from "@/app/lib/data";
 
 
 
 const ProjectSection = () => {
     return (
-        <div className="mt-36">
+        <div>
             <h2 className="text-white flex text-center text-4xl font-bold mb-4 h-14">
                 My Projects
             </h2>

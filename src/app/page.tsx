@@ -15,7 +15,8 @@ export default function Home() {
 
     <main className="flex min-h-screen flex-col bg-[#080808] leading-loose">
       <NavBar />
-      <div className="container mt-24 mx-auto py-4 px-12">
+
+      <div className="container mt-24 mx-auto py-4 px-12 flex flex-col items-center">
         <HeroArea />
         <SectionBuffer id="aboutme"/>
         <AboutMe />
@@ -26,7 +27,6 @@ export default function Home() {
         <SectionBuffer id="contact"/>
         <EmailSection />
         <Footer />
-        <SectionBuffer id="null"/>
       </div>
     </main>
 
