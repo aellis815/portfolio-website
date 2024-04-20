@@ -24,9 +24,10 @@ const Footer = () => {
                         <FaLinkedin className="h-10 w-10 group-hover:text-gray-500" />
                     </Link>
                 </div>
-                <p className="text-slate-400 text-right">All Rights Reserved</p>
+                
                 
             </div>
+            <p className="text-slate-400 text-right grid grid-cols justify-center items-center p-3">All Rights Reserved</p>
 
         </footer >
     );
