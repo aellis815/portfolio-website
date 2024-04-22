@@ -37,7 +37,7 @@ export default function NavBar1() {
             className=" z-[999]"
         >
             <div className="fixed left-0 right-0 top-4 mx-auto sm:w-full md:max-w-3xl">
-                <nav className={`w-full z-10 bg-slate-900 bg-opacity-90 shadow-lg shadow-slate-800 backdrop-blur-[0.5rem] ${navbarOpen ? 'rounded-3xl' : 'rounded-full'}`}>
+                <nav className={`${navbarOpen ? 'rounded-3xl w-full z-10 bg-slate-900 bg-opacity-90 shadow-lg shadow-slate-800 backdrop-blur-[0.5rem]' : 'rounded-full'}`}>
                     <div id="NavBar Container" className="flex flex-wrap items-center justify-center mx-auto h-auto p-5 ">
                         <div className="md:block hidden">
                             {/* <Link id="TL HomeBtn Container" href={"/"} className="text-lg md:text-5xl text-white font-bold">
@@ -49,7 +49,7 @@ export default function NavBar1() {
                                 !navbarOpen ? (
                                     <button
                                         onClick={() => setNavbarOpen(true)}
-                                        className="flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white">
+                                        className="flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white bg-slate-900 backdrop-blur-[0.5rem] shadow bg-opacity-80 shadow-slate-800">
                                         <Bars2Icon className="h-5 w-5" />
                                     </button>
                                 ) : (

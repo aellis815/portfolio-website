@@ -1,8 +1,11 @@
+
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
+
 
 export const metadata: Metadata = {
   title: "Alex Ellis Portfolio",
@@ -16,6 +19,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <body className={inter.className}>
         <div className="bg-secondary-200 absolute top-[-1rem] left-[-31rem] h-[32rem] w-full rounded-full blur-[140rem] overflow-hidden"></div>
         {children}

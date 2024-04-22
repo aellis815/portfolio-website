@@ -60,10 +60,10 @@ const AboutMe = () => {
                             <>
                                 <p className="text-lg text-[#ADB7BE] py-3 justify-start">
                                     {/* THIS IS WHERE I WOULD PUT PROFESSIONAL BIO */}
-                                    I've spent the majority of my career in the world of sales at leading tech companies. I've always had a passion for the technical side of the business and have been the most fullfilled when I've been able to use my technical aptitude to help <strong>build</strong> things for my peers.
+                                    I've spent my career in tech, blending my knack for sales with a strong technical understanding to improve business results. Working at top tech companies, I’ve always been at my best when using my technical skills to create solutions that help my team succeed.
                                     <br></br>
                                     <br></br>
-                                    Last year I decided to take the leap and pursue a career in software development. I've been learning cutting edge front-end technologies and have been building projects to showcase my skills. I'm excited to continue to grow and learn in this field and am looking forward to the next chapter in my career.
+                                    Recently, I shifted gears to focus more on software development, diving into the latest front-end technologies. I’ve put together a few projects that showcase my growing skills. I'm really excited about learning more and taking on new challenges in this area.
                                 </p>
                             </>
                         )}

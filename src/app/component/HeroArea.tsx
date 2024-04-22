@@ -10,7 +10,7 @@ export default function HeroArea() {
         <section>
             <div className="grid grid-cols-1 sm:grid-cols-12 mt-24">
                 <div className="col-span-7 place-self-center text-center sm:text-left">
-                    <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
+                    <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold min-h-[125px]">
                         <span className="text-transparent bg-clip-text bg-gradient-to-br from-primary-500 to-secondary-500">Hey, I&apos;m{" "}
                         </span>
                         {/* Using Type Animation from react-type animation to animate intro text */}
