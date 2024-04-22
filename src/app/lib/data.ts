@@ -27,7 +27,7 @@ export const ProjectData: Project[] = [
         id: 1,
         title: "Portfolio Website",
         description: "My portfolio website is intended to in itself be a showcase of my skills and abilities and introduce future projects that I will be working on.",
-        image: "/images/portfolio-website.png",
+        image: "/images/websitescreenshot.png",
         githubUrl: "https://github.com/aellis815/portfolio-website",
         websiteUrl: "/",
         tags: ["React", "TailwindCSS", "TypeScript", "Next.js", "Vercel"]
